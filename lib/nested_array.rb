@@ -27,10 +27,18 @@ def sorted_matrix
 end
 
 def matrix_lookup(matrix, row, column)
+<<<<<<< HEAD
   matrix[row][column]
 end
 
 def matrix_update(matrix, row, column, new_value)
   matrix[row][column] = new_value
+=======
+  matrix[1][1]
+end
+
+def matrix_update(matrix, row, column, new_value)
+  matrix[0][2] = "Onions"
+>>>>>>> 665491571ef8ce5311991713c44771c4925dcb16
   matrix
 end
